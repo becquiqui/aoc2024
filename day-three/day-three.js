@@ -20,7 +20,7 @@ readAndExecute("./test-data-part1.txt", sumOfProducts);
 readAndExecute("./challenge-data.txt", sumOfProducts);
 
 // part two
-const temp = (input) => {
+const sumtimesOfProducts = (input) => {
   let doMul = true;
   return input
     .match(DO_DONT_MUL)
@@ -38,6 +38,6 @@ const temp = (input) => {
     .reduce((a, b) => a + b);
 };
 // expected output: 48
-readAndExecute("./test-data-part2.txt", temp);
+readAndExecute("./test-data-part2.txt", sumtimesOfProducts);
 // answer: 90772405
-readAndExecute("./challenge-data.txt", temp);
+readAndExecute("./challenge-data.txt", sumtimesOfProducts);
