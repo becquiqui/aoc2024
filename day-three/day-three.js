@@ -2,8 +2,6 @@ const { readAndExecute } = require("../utils");
 
 // regexes
 const DO_DONT_MUL = /do\(\)|don\'t\(\)|mul\(\d{1,3},\d{1,3}\)/g;
-const DO = /do\(\)/g;
-const DONT = /don\'t\(\)/g;
 const MUL = /mul\(\d{1,3},\d{1,3}\)/g;
 
 // util
